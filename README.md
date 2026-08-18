@@ -2,9 +2,9 @@
 
 Asset per l'hero "broken by design." — frammenti di vetro reali (desktop + mobile) e i due tasti audio.
 
-- `desktop-*.png`, `mobile-*.png` — 32 frammenti RGBA, tagliati e fratturati dai render sorgente
+- `atlas-desktop.png`, `atlas-mobile.png` — sprite sheet con tutti i 16 frammenti per breakpoint (1 richiesta invece di 16; i frammenti singoli non sono più usati dal componente)
 - `sound-on.png`, `sound-off.png` — toggle audio in vetro
-- `manifest.json` — geometria dei frammenti (riferimento, il componente la incorpora già)
+- `manifest.json` — geometria dei frammenti originali (riferimento storico, non più usata a runtime)
 
 Servito via jsDelivr:
 ```
